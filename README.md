@@ -6,9 +6,9 @@ The code correctly implements all the CRUD (Create, Read, Update, Delete) operat
 
 I've presented a clear logic for:
 
-POST: Checking for emp_id conflicts before creation;
-GET: To read all employees and single employee using query parameter {emp_id};
-DELETE: deletes an Employee using emp_id
+POST: Checking for emp_id conflicts before creation;<br>
+GET: To read all employees and single employee using query parameter {emp_id};<br>
+DELETE: deletes an Employee using emp_id; <br>
 PUT: Correctly preserving the original internal id (UUID) when updating the record;
 
 Helpers: Using helper functions to find the internal UUID from the business emp_id, which is necessary for this data structure.
