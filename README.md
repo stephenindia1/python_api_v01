@@ -21,9 +21,9 @@ ENDPOINTS-
 1. route (/) Method (GET)- returns a welcome message
 2. route(/employees) Method (GET) - To read all employees
 3. route (/employees) Method  (POST) - create an employee
-4. route (/employees/{emp_id}) (GET) - to read single employee by user defined emp_id
-5. route (/employees/{emp_id}) (PUT) - to update an employee using emp_id
-6. route (/employees/{emp_id}) (DELETE) - to delete an employee using user defined emp_id
+4. route (/employees/{emp_id}) Method  (GET) - to read single employee by user defined emp_id
+5. route (/employees/{emp_id}) Method  (PUT) - to update an employee using emp_id
+6. route (/employees/{emp_id}) Method  (DELETE) - to delete an employee using user defined emp_id
 
 
 ⚡️ A Note on Performance (O(N) vs O(1))
