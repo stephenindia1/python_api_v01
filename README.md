@@ -36,4 +36,4 @@ but since its the very beginning level. Let's continue, we will look into this i
 
 This is a suggestion for those who want to optimization — otherwise the current code is perfectly correct and functional for its purpose.
 
-This serves as a good example. 
+This serves as a good example to fully understand the basic concept of a simple API structure. 
