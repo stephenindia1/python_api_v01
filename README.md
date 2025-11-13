@@ -17,6 +17,15 @@ We have used 2 helper functions:
 1. find_employee_by_emp_id_internal - is the one to find Employee by business defined emp_id; and another
 2. find_employee_key_by_emp_id_internal - is to find the internal UUID key for a given integer emp_id;
 
+ENDPOINTS-
+1. route (/) Method (GET)- returns a welcome message
+2. route(/employees) Method (GET) - To read all employees
+3. route (/employees) Method  (POST) - create an employee
+4. route (/employees/{emp_id}) (GET) - to read single employee by user defined emp_id
+5. route (/employees/{emp_id}) (PUT) - to update an employee using emp_id
+6. route (/employees/{emp_id}) (DELETE) - to delete an employee using user defined emp_id
+
+
 ⚡️ A Note on Performance (O(N) vs O(1))
 For this in-memory database, the helper functions (find_employee_key_by_emp_id_internal) scans the entire employees_db dictionary every time you do a GET, PUT, or DELETE. This is an O(N) operation (it gets slower as you add more employees), 
 but since its the very beginning level. Let's continue, we will look into this in out next project.
