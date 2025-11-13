@@ -30,9 +30,9 @@ ENDPOINTS-
 For this in-memory database, the helper functions (find_employee_key_by_emp_id_internal) scans the entire employees_db dictionary every time you do a GET, PUT, or DELETE. This is an O(N) operation (it gets slower as you add more employees), 
 but since its the very beginning level. Let's continue, we will look into this in out next project.
 
-Real Database scenario - In a real database, you'd solve this by adding an "index" on the emp_id column.
+<b>Real Database scenario </b>- In a real database, you'd solve this by adding an "index" on the emp_id column.
 
-In-memory database - If you wanted to optimize this in memory, you could maintain a second "lookup" dictionary that maps the emp_id directly to its corresponding id (UUID). This would make your lookups O(1) (instant).
+<b>In-memory database </b> - If you wanted to optimize this in memory, you could maintain a second "lookup" dictionary that maps the emp_id directly to its corresponding id (UUID). This would make your lookups O(1) (instant).
 
 This is a suggestion for those who want to optimization — otherwise the current code is perfectly correct and functional for its purpose.
 
