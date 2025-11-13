@@ -14,8 +14,8 @@ PUT: Correctly preserving the original internal id (UUID) when updating the reco
 Helpers: Using helper functions to find the internal UUID from the business emp_id, which is necessary for this data structure.
 
 In the current scenario we have used 
-# Simple in-memory database:
-# Key: internal 'id' (UUID object), Value: Employee object
+Simple in-memory database:
+Key: internal 'id' (UUID object), Value: Employee object
 employees_db: dict[uuid.UUID, Employee] = {}**
 
 We have used 2 helper functions:
