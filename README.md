@@ -6,7 +6,7 @@ The code correctly implements all the CRUD (Create, Read, Update, Delete) operat
 
 I've presented a clear logic for:
 
-POST: Checking for emp_id conflicts before creation;<br>
+POST: Adds the new employee while checking for emp_id conflicts before creation;<br>
 GET: To read all employees and single employee using query parameter {emp_id};<br>
 DELETE: deletes an Employee using emp_id; <br>
 PUT: Correctly preserving the original internal id (UUID) when updating the record;
